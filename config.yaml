@@ -11,12 +11,12 @@ params:
   showReadingTime: true
   disableShare: false
   disableToc: false
-  # Giscus 评论（占位符）。请按 README 中的说明替换 OWNER/REPO 与 ID 字段。
+  # Giscus 评论（占位符）。请按 README 中的说明替换 ID 字段。
   giscus:
     enable: true
-    repo: "OWNER/REPO"
+    repo: "luoxingqi/myblog"
     repoId: "REPO_ID"
-    category: "Category"
+    category: "Comments"
     categoryId: "CATEGORY_ID"
     mapping: "pathname"
     reactionsEnabled: "1"
