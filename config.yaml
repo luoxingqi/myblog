@@ -1,0 +1,30 @@
+baseURL: "https://luoxingqi.github.io/myblog/"
+languageCode: "zh-CN"
+title: "我的博客"
+theme: "PaperMod"
+paginate: 10
+
+params:
+  description: "个人技术博客，记录学习与实践"
+  author: "luoxingqi"
+  defaultContentLanguage: "zh"
+  showReadingTime: true
+  disableShare: false
+  disableToc: false
+  # Giscus 评论（占位符）。请按 README 中的说明替换 OWNER/REPO 与 ID 字段。
+  giscus:
+    enable: true
+    repo: "OWNER/REPO"
+    repoId: "REPO_ID"
+    category: "Category"
+    categoryId: "CATEGORY_ID"
+    mapping: "pathname"
+    reactionsEnabled: "1"
+    emitMetadata: "0"
+    inputPosition: "bottom"
+    theme: "light"
+    lang: "zh-CN"
+
+module:
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
