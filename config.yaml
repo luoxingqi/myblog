@@ -11,9 +11,10 @@ params:
   showReadingTime: true
   disableShare: false
   disableToc: false
-  # Giscus 评论（占位符）。请按 README 中的说明替换 ID 字段。
+  # 评论配置：已切换为 Utterances（基于 Issues）。
+  # 如果想改回 Giscus，请参考 docs/giscus-setup.md 并把 giscus.enable 设为 true。
   giscus:
-    enable: true
+    enable: false
     repo: "luoxingqi/myblog"
     repoId: "REPO_ID"
     category: "Comments"
@@ -24,6 +25,12 @@ params:
     inputPosition: "bottom"
     theme: "light"
     lang: "zh-CN"
+  utterances:
+    enable: true
+    repo: "luoxingqi/myblog"
+    issueTerm: "pathname"
+    label: "comment"
+    theme: "github-light"
 
 module:
   imports:
